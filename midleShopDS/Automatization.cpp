@@ -32,7 +32,7 @@ void Start()
 		else
 		{
 			system("cls");
-			std::wcout << L"\n\n\t\tВсего ХОРОШЕГО\n";
+			std::wcout << L"\n\n\t\tВсего хорошего\n";
 			Sleep(3000);
 			break;
 		}
@@ -46,7 +46,7 @@ bool Login()
 	while (true)
 	{
 		system("cls");
-		std::wcout << L"\n\n\n\t\t\tДобро пожаловать!\n\n\t\t\tВась\n\n\n";
+		std::wcout << L"\n\n\n\t\t\tДобро пожаловать!\n\n\t\t\tРаскумар\n\n\n";
 		std::wcout << L"Введите логин или \"exit\" для выхода: ";
 		Getline(login);
 		if (login == L"exit" || login == L"Exit")
@@ -119,7 +119,7 @@ void SuperAdminMenu()
 		}
 		else if (choose == L"6")
 		{
-
+			ChangeStorage();
 		}
 		else if (choose == L"7")
 		{
